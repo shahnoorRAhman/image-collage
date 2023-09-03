@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            border: 5px solid skyblue;
+            display: flex;
+            height: 250px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .box {
+            border: 3px solid green;
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+
+
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+            align-items: center;
+        }
+
+        .log-in-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .log-in-form input {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="">home</a>
+            <a href="">portfolio</a>
+            <a href="">blogs</a>
+            <a href="">about</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+
+    <section class="form-container">
+        <form class="log-in-form">
+            <h3>Please Log In</h3>
+            <input type="email" name="" id="" placeholder="your email" required>
+            <input type="password" name="" id="" placeholder="your password" required>
+            <input type="submit" value="login">
+        </form>
+    </section>
+
+    <h1>FlexBoX LaYoUt</h1>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+
+
+    </div>
+</body>
+
+</html>
