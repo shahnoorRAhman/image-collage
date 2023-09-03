@@ -1,5 +1,5 @@
 .row {
-    height: 400px;
+    height: 500px;
     display: flex;
     gap: 5px;
     margin-bottom: 5px;
@@ -15,11 +15,12 @@ img {
     height: 100%;
 }
 
-.collage-img {
-    height: calc((100%- 5px)/2);
+.img-collage {
+    height: calc((100% - 5px)/2);
+
 }
 
-.square-collage {
+.square-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
